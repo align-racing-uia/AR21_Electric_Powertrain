@@ -1,0 +1,188 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1EDI60H12AHXUMA1_1EDI60H12AHXUMA1
+#
+DEF 1EDI60H12AHXUMA1_1EDI60H12AHXUMA1 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "1EDI60H12AHXUMA1_1EDI60H12AHXUMA1" 950 200 50 H V L CNN
+F2 "SOIC127P1030X265-8N" 950 100 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-1EDIxxy12AH-DS-v02_00-EN.pdf?fileId=5546d46253f6505701543843c049027b" 950 0 50 H I L CNN
+F4 "Infineon 1EDI60H12AHXUMA1 Dual Galvanic Isolated Isolated Gate Driver, -9.4 A, 10 A, 3.1  17 V 8-Pin, DSO" 950 -100 50 H I L CNN "Description"
+F5 "2.65" 950 -200 50 H I L CNN "Height"
+F6 "Infineon" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1EDI60H12AHXUMA1" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1EDI60H12AHXUMA1" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/1edi60h12ahxuma1/infineon-technologies-ag" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "726-1EDI60H12AHXUMA1" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-1EDI60H12AHXUMA1" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X VCC1 1 0 0 200 R 50 50 0 0 P
+X IN+ 2 0 -100 200 R 50 50 0 0 P
+X IN- 3 0 -200 200 R 50 50 0 0 P
+X GND1 4 0 -300 200 R 50 50 0 0 P
+X GND2 5 1100 -300 200 L 50 50 0 0 P
+X VCC2 6 1100 -200 200 L 50 50 0 0 P
+X OUT+ 7 1100 -100 200 L 50 50 0 0 P
+X OUT- 8 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x05_Male
+#
+DEF Connector_Conn_01x05_Male J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x05_Male" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+X Pin_1 1 200 200 150 L 50 50 1 1 P
+X Pin_2 2 200 100 150 L 50 50 1 1 P
+X Pin_3 3 200 0 150 L 50 50 1 1 P
+X Pin_4 4 200 -100 150 L 50 50 1 1 P
+X Pin_5 5 200 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x06_Male
+#
+DEF Connector_Conn_01x06_Male J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x06_Male" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -295 0 -305 1 1 6 F
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+P 2 1 1 6 50 -300 34 -300 N
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+X Pin_1 1 200 200 150 L 50 50 1 1 P
+X Pin_2 2 200 100 150 L 50 50 1 1 P
+X Pin_3 3 200 0 150 L 50 50 1 1 P
+X Pin_4 4 200 -100 150 L 50 50 1 1 P
+X Pin_5 5 200 -200 150 L 50 50 1 1 P
+X Pin_6 6 200 -300 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R12P22005D_R12P22005D
+#
+DEF R12P22005D_R12P22005D PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "R12P22005D_R12P22005D" 850 200 50 H V L CNN
+F2 "R15P21503D" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/R12P22005D.pdf" 850 0 50 H I L CNN
+F4 "Recom Through Hole 2W Isolated DC-DC Converter, I/O isolation 5.2kV dc, Vout -5 V dc, 20 V dc" 850 -100 50 H I L CNN "Description"
+F5 "13" 850 -200 50 H I L CNN "Height"
+F6 "RECOM Power" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "R12P22005D" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "R12P22005D" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/r12p22005d/recom-power" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "919-R12P22005D" 850 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=919-R12P22005D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -500 200 -500 200 100 N
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X -VIN 2 0 -100 200 R 50 50 0 0 P
+X -VOUT 5 0 -200 200 R 50 50 0 0 P
+X COM 6 0 -300 200 R 50 50 0 0 P
+X +VOUT 7 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# pspice_INDUCTOR
+#
+DEF pspice_INDUCTOR L 0 0 N Y 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "pspice_INDUCTOR" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+X 1 1 -250 0 50 R 30 30 1 1 I
+X 2 2 250 0 50 L 30 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

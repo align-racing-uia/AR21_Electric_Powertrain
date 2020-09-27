@@ -1,0 +1,110 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1EDI60H12AHXUMA1_1EDI60H12AHXUMA1
+#
+DEF 1EDI60H12AHXUMA1_1EDI60H12AHXUMA1 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "1EDI60H12AHXUMA1_1EDI60H12AHXUMA1" 950 200 50 H V L CNN
+F2 "SOIC127P1030X265-8N" 950 100 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-1EDIxxy12AH-DS-v02_00-EN.pdf?fileId=5546d46253f6505701543843c049027b" 950 0 50 H I L CNN
+F4 "Infineon 1EDI60H12AHXUMA1 Dual Galvanic Isolated Isolated Gate Driver, -9.4 A, 10 A, 3.1  17 V 8-Pin, DSO" 950 -100 50 H I L CNN "Description"
+F5 "2.65" 950 -200 50 H I L CNN "Height"
+F6 "Infineon" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1EDI60H12AHXUMA1" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1EDI60H12AHXUMA1" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/1edi60h12ahxuma1/infineon-technologies-ag" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "726-1EDI60H12AHXUMA1" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-1EDI60H12AHXUMA1" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X VCC1 1 0 0 200 R 50 50 0 0 P
+X IN+ 2 0 -100 200 R 50 50 0 0 P
+X IN- 3 0 -200 200 R 50 50 0 0 P
+X GND1 4 0 -300 200 R 50 50 0 0 P
+X GND2 5 1100 -300 200 L 50 50 0 0 P
+X VCC2 6 1100 -200 200 L 50 50 0 0 P
+X OUT+ 7 1100 -100 200 L 50 50 0 0 P
+X OUT- 8 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x02_Male
+#
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

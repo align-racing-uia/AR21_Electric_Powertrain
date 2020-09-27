@@ -1,0 +1,352 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:IRLZ44N Q2
+U 1 1 5F6FC0D7
+P 5250 3350
+F 0 "Q2" H 5455 3396 50  0000 L CNN
+F 1 "IPB120N04S4-04" H 5455 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 5500 3275 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPB120N04S4-04-DS-v01_01-EN.pdf?fileId=5546d46249a28d750149a3ce545c062f" H 5250 3350 50  0001 L CNN
+	1    5250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:AO3401A Q1
+U 1 1 5F6FE0E8
+P 5250 2750
+F 0 "Q1" H 5454 2796 50  0000 L CNN
+F 1 "IPI120P04P4-04" H 5454 2705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 5450 2675 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPP_B_I120P04P4_04-DS-v01_01-EN.pdf?fileId=db3a30432f69f146012f784299de2e44" H 5250 2750 50  0001 L CNN
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2750 5000 2750
+Wire Wire Line
+	5000 3350 5050 3350
+Wire Wire Line
+	5350 2550 5350 2500
+Wire Wire Line
+	5350 3550 5350 3600
+$Comp
+L 1EDI60H12AHXUMA1:1EDI60H12AHXUMA1 IC1
+U 1 1 5F704E0D
+P 3150 3000
+F 0 "IC1" H 3700 3265 50  0000 C CNN
+F 1 "1EDI60H12AHXUMA1" H 3700 3174 50  0000 C CNN
+F 2 "1EDI60H12AHXUMA1:SOIC127P1030X265-8N" H 4100 3100 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-1EDIxxy12AH-DS-v02_00-EN.pdf?fileId=5546d46253f6505701543843c049027b" H 4100 3000 50  0001 L CNN
+F 4 "Infineon 1EDI60H12AHXUMA1 Dual Galvanic Isolated Isolated Gate Driver, -9.4 A, 10 A, 3.1  17 V 8-Pin, DSO" H 4100 2900 50  0001 L CNN "Description"
+F 5 "2.65" H 4100 2800 50  0001 L CNN "Height"
+F 6 "Infineon" H 4100 2700 50  0001 L CNN "Manufacturer_Name"
+F 7 "1EDI60H12AHXUMA1" H 4100 2600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "1EDI60H12AHXUMA1" H 4100 2500 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/1edi60h12ahxuma1/infineon-technologies-ag" H 4100 2400 50  0001 L CNN "Arrow Price/Stock"
+F 10 "726-1EDI60H12AHXUMA1" H 4100 2300 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-1EDI60H12AHXUMA1" H 4100 2200 50  0001 L CNN "Mouser Price/Stock"
+	1    3150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F7069B2
+P 4600 3000
+F 0 "R1" V 4404 3000 50  0000 C CNN
+F 1 "10R" V 4495 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4600 3000 50  0001 C CNN
+F 3 "~" H 4600 3000 50  0001 C CNN
+	1    4600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F706FC9
+P 4600 3100
+F 0 "R2" V 4404 3100 50  0000 C CNN
+F 1 "3R3" V 4495 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4600 3100 50  0001 C CNN
+F 3 "~" H 4600 3100 50  0001 C CNN
+	1    4600 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3000 4750 3000
+Wire Wire Line
+	4750 3000 4750 3050
+Wire Wire Line
+	4750 3100 4700 3100
+Connection ~ 4750 3050
+Wire Wire Line
+	4750 3050 4750 3100
+Wire Wire Line
+	5000 2750 5000 3050
+Wire Wire Line
+	4900 2500 5350 2500
+Wire Wire Line
+	4750 3050 5000 3050
+Connection ~ 5000 3050
+Wire Wire Line
+	5000 3050 5000 3350
+Wire Wire Line
+	4300 3600 4300 3300
+Wire Wire Line
+	4300 3300 4250 3300
+Wire Wire Line
+	4300 3600 5350 3600
+Wire Wire Line
+	4250 3200 4400 3200
+Wire Wire Line
+	4250 3100 4500 3100
+Wire Wire Line
+	4250 3000 4500 3000
+$Comp
+L Device:C_Small C1
+U 1 1 5F7156D1
+P 2900 2850
+F 0 "C1" V 3129 2850 50  0000 C CNN
+F 1 "100nF" V 3038 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2900 2850 50  0001 C CNN
+F 3 "~" H 2900 2850 50  0001 C CNN
+	1    2900 2850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3050 3000 3050 2850
+Wire Wire Line
+	3050 2850 3000 2850
+Wire Wire Line
+	3050 3000 3150 3000
+Wire Wire Line
+	3150 3200 3050 3200
+Wire Wire Line
+	3050 3200 3050 3300
+Wire Wire Line
+	3050 3300 3150 3300
+Wire Wire Line
+	2800 2850 2700 2850
+Wire Wire Line
+	2700 2850 2700 3300
+Wire Wire Line
+	2700 3300 3050 3300
+Connection ~ 3050 3300
+Connection ~ 3050 3000
+Wire Wire Line
+	2700 3300 2600 3300
+Wire Wire Line
+	2600 3300 2600 3200
+Connection ~ 2700 3300
+Wire Wire Line
+	5350 3050 6300 3050
+$Comp
+L Device:C_Small C2
+U 1 1 5F74971C
+P 4900 3800
+F 0 "C2" H 4992 3846 50  0000 L CNN
+F 1 "1uF" H 4992 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 3800 50  0001 C CNN
+F 3 "~" H 4900 3800 50  0001 C CNN
+	1    4900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5F749E8D
+P 4900 4200
+F 0 "C3" H 4992 4246 50  0000 L CNN
+F 1 "1uF" H 4992 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 4200 50  0001 C CNN
+F 3 "~" H 4900 4200 50  0001 C CNN
+	1    4900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3700 4900 3500
+Wire Wire Line
+	4900 4400 4900 4300
+Wire Wire Line
+	4900 4400 4300 4400
+Wire Wire Line
+	4300 4400 4300 3600
+Connection ~ 4300 3600
+$Comp
+L Transistor_BJT:DTC1D3R Q3
+U 1 1 5F75B79C
+P 7100 3600
+F 0 "Q3" H 7288 3646 50  0000 L CNN
+F 1 "DTC1D3R" H 7288 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 3600 50  0001 L CNN
+F 3 "" H 7100 3600 50  0001 L CNN
+	1    7100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2950 5350 3050
+Wire Wire Line
+	4900 3900 4900 4100
+Connection ~ 5350 3050
+Wire Wire Line
+	5350 3050 5350 3150
+Connection ~ 4900 4400
+$Comp
+L Device:R_Small R3
+U 1 1 5F7697A5
+P 6300 3250
+F 0 "R3" H 6359 3296 50  0000 L CNN
+F 1 "30K" H 6359 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 3250 50  0001 C CNN
+F 3 "~" H 6300 3250 50  0001 C CNN
+	1    6300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5F769CD6
+P 6650 3600
+F 0 "R4" V 6454 3600 50  0000 C CNN
+F 1 "10K" V 6545 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 3600 50  0001 C CNN
+F 3 "~" H 6650 3600 50  0001 C CNN
+	1    6650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D1
+U 1 1 5F76A283
+P 6300 3850
+F 0 "D1" V 6254 3930 50  0000 L CNN
+F 1 "23V" V 6345 3930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 3850 50  0001 C CNN
+F 3 "~" H 6300 3850 50  0001 C CNN
+	1    6300 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 3350 6300 3600
+Wire Wire Line
+	6300 3600 6550 3600
+Wire Wire Line
+	6300 3600 6300 3700
+Connection ~ 6300 3600
+Wire Wire Line
+	6750 3600 6850 3600
+Wire Wire Line
+	6300 3150 6300 3050
+Wire Wire Line
+	7200 3400 7200 3050
+$Comp
+L Device:R_Small R5
+U 1 1 5F781062
+P 7200 4000
+F 0 "R5" H 7259 4046 50  0000 L CNN
+F 1 "1K" H 7259 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7200 4000 50  0001 C CNN
+F 3 "~" H 7200 4000 50  0001 C CNN
+	1    7200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3050 7200 3050
+Connection ~ 6300 3050
+Wire Wire Line
+	7200 3800 7200 3900
+Wire Wire Line
+	7200 4100 7200 4400
+Wire Wire Line
+	4900 4400 6300 4400
+Wire Wire Line
+	6300 4000 6300 4400
+Connection ~ 6300 4400
+Wire Wire Line
+	6300 4400 7200 4400
+Wire Wire Line
+	7200 4400 7900 4400
+Connection ~ 7200 4400
+$Comp
+L Device:R_Small R6
+U 1 1 5F795715
+P 7400 3050
+F 0 "R6" V 7204 3050 50  0000 C CNN
+F 1 "0.25R" V 7295 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_4020_10251Metric" V 7296 3050 50  0001 C CNN
+F 3 "~" H 7400 3050 50  0001 C CNN
+	1    7400 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 3050 7200 3050
+Connection ~ 7200 3050
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5F79EA29
+P 8200 3050
+F 0 "J2" H 8228 3026 50  0000 L CNN
+F 1 "Driver_OUT" H 8228 2935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8200 3050 50  0001 C CNN
+F 3 "~" H 8200 3050 50  0001 C CNN
+	1    8200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3050 8000 3050
+Wire Wire Line
+	7900 3150 8000 3150
+Wire Wire Line
+	7900 3150 7900 4400
+Wire Wire Line
+	4400 3500 4900 3500
+Connection ~ 4400 3500
+Connection ~ 4900 3500
+Wire Wire Line
+	4900 2500 4900 3500
+Wire Wire Line
+	4400 3200 4400 3500
+Wire Wire Line
+	4300 4400 4150 4400
+Wire Wire Line
+	4150 4400 4150 3600
+Connection ~ 4300 4400
+Wire Wire Line
+	2500 3500 2500 3300
+Wire Wire Line
+	2500 3500 4400 3500
+Wire Wire Line
+	2400 3600 2400 3400
+Wire Wire Line
+	2400 3400 2300 3400
+Wire Wire Line
+	2400 3600 4150 3600
+Wire Wire Line
+	2300 3300 2500 3300
+Wire Wire Line
+	2300 3200 2600 3200
+Wire Wire Line
+	2300 3100 3150 3100
+Wire Wire Line
+	2300 3000 3050 3000
+$Comp
+L Connector:Conn_01x05_Female J1
+U 1 1 5F7B21D1
+P 2100 3200
+F 0 "J1" H 1992 3585 50  0000 C CNN
+F 1 "Driver_IN" H 1992 3494 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2100 3200 50  0001 C CNN
+F 3 "~" H 2100 3200 50  0001 C CNN
+	1    2100 3200
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

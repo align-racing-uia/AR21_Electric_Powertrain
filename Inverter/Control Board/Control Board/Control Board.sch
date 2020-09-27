@@ -1,0 +1,214 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F5FF52A
+P 3850 1150
+F 0 "U?" H 3825 1417 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 1326 50  0000 C CNN
+F 2 "" H 3850 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 1150 50  0001 C CNN
+	1    3850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F5FFD0B
+P 3850 1600
+F 0 "U?" H 3825 1867 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 1776 50  0000 C CNN
+F 2 "" H 3850 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 1600 50  0001 C CNN
+	1    3850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6010D9
+P 3850 250
+F 0 "U?" H 3825 517 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 426 50  0000 C CNN
+F 2 "" H 3850 250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 250 50  0001 C CNN
+	1    3850 250 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6010E3
+P 3850 700
+F 0 "U?" H 3825 967 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 876 50  0000 C CNN
+F 2 "" H 3850 700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 700 50  0001 C CNN
+	1    3850 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6028B5
+P 3850 2050
+F 0 "U?" H 3825 2317 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 2226 50  0000 C CNN
+F 2 "" H 3850 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 2050 50  0001 C CNN
+	1    3850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6028BF
+P 3850 2500
+F 0 "U?" H 3825 2767 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 2676 50  0000 C CNN
+F 2 "" H 3850 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 2500 50  0001 C CNN
+	1    3850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F604299
+P 3850 3850
+F 0 "U?" H 3825 4117 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 4026 50  0000 C CNN
+F 2 "" H 3850 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 3850 50  0001 C CNN
+	1    3850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6042A3
+P 3850 4300
+F 0 "U?" H 3825 4567 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 4476 50  0000 C CNN
+F 2 "" H 3850 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 4300 50  0001 C CNN
+	1    3850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6042AD
+P 3850 2950
+F 0 "U?" H 3825 3217 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 3126 50  0000 C CNN
+F 2 "" H 3850 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6042B7
+P 3850 3400
+F 0 "U?" H 3825 3667 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 3576 50  0000 C CNN
+F 2 "" H 3850 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 3400 50  0001 C CNN
+	1    3850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6042C1
+P 3850 4750
+F 0 "U?" H 3825 5017 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 4926 50  0000 C CNN
+F 2 "" H 3850 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 4750 50  0001 C CNN
+	1    3850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F6042CB
+P 3850 5200
+F 0 "U?" H 3825 5467 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 5376 50  0000 C CNN
+F 2 "" H 3850 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 5200 50  0001 C CNN
+	1    3850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F60ACC7
+P 3850 6550
+F 0 "U?" H 3825 6817 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 6726 50  0000 C CNN
+F 2 "" H 3850 6550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 6550 50  0001 C CNN
+	1    3850 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F60ACD1
+P 3850 7000
+F 0 "U?" H 3825 7267 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 7176 50  0000 C CNN
+F 2 "" H 3850 7000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 7000 50  0001 C CNN
+	1    3850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F60ACDB
+P 3850 5650
+F 0 "U?" H 3825 5917 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 5826 50  0000 C CNN
+F 2 "" H 3850 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 5650 50  0001 C CNN
+	1    3850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F60ACE5
+P 3850 6100
+F 0 "U?" H 3825 6367 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 6276 50  0000 C CNN
+F 2 "" H 3850 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 6100 50  0001 C CNN
+	1    3850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F60ACEF
+P 3850 7450
+F 0 "U?" H 3825 7717 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 7626 50  0000 C CNN
+F 2 "" H 3850 7450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 7450 50  0001 C CNN
+	1    3850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 5F60ACF9
+P 3850 7900
+F 0 "U?" H 3825 8167 50  0000 C CNN
+F 1 "74AHC1G08" H 3825 8076 50  0000 C CNN
+F 2 "" H 3850 7900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3850 7900 50  0001 C CNN
+	1    3850 7900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
